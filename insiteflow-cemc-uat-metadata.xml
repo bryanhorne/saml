@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" validUntil="2020-07-04T22:26:21Z" cacheDuration="PT1594333581S" entityID="Idpcertcarolinaeasthealthcom">
+  <md:IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDLzCCAhegAwIBAgIUIZgV2YRfoCEW0mMBcj2BXwa8rH0wDQYJKoZIhvcNAQELBQAwJzElMCMGA1UEAwwcaWRwY2VydGNhcm9saW5hZWFzdGhlYWx0aGNvbTAeFw0yMDA3MDIyMDM0MjZaFw0yMzA0MjIyMDM0MjZaMCcxJTAjBgNVBAMMHGlkcGNlcnRjYXJvbGluYWVhc3RoZWFsdGhjb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCkw4qkknNnHDXDQ6VJ7HwW7NPAIFKaVfAhp/0eh12Ze8NxVz0SeNhOs2AM1bRyPMaV3F+qvWqIUuwj3DV/pRRIteIpOp890kajRZZSfQ5cKKDWz6VkVp1g8y8Gbf/WtE9zL4lBhbnKH2OfZU4WBOonkDDLR4TJHc8wrOKAXn7EveNmk0tSIWqxhJehavTHuKjW+9Ij7tHPkMk1PZbgj5YH+Rwx4DZECRUNPff2pZNEXqNDn6a/ZbqyemjLyEcGu37TiCALdxxzlSXNSLRxmmgWNIr7XE4Xqj1L4vVcd0449GiBaxaeA+I9TzieV026xeOnpE8cCDumsvL+sqxgdNZpAgMBAAGjUzBRMB0GA1UdDgQWBBQbrLWWngoD2d9D8V6462CyP99UbTAfBgNVHSMEGDAWgBQbrLWWngoD2d9D8V6462CyP99UbTAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBKgmJb7+x5KHHlReWw7PPYJdSHkRVO7AQfEJKw438CpZ274fGCYwrncR1IbLfXYcM5OcY91jjhLL6oFRJ03NruWYhU0Ey+/VOo2ncFbUs/SdLKvRbiTfAmIqODjeHs7hYed47OrhUt4DQnzE69IlDNURPx2X5y9RUM9j6meojU+5vbahpjsWhnKzKCFQRtPpJv4HlQG4lB8sKLZIcMPUZ0Lq3KAOdzY61dP7AVzv6Y0EHvlkttjFtLmHMRCSgrH6s/MW9yzzIInYya34AIMcMtnkJYa8LTaJmFtQApRw0wo89AXOtMwGpM4yrseBr3zihLxamajGy41TehBmFKJ+oW</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDLzCCAhegAwIBAgIUIZgV2YRfoCEW0mMBcj2BXwa8rH0wDQYJKoZIhvcNAQELBQAwJzElMCMGA1UEAwwcaWRwY2VydGNhcm9saW5hZWFzdGhlYWx0aGNvbTAeFw0yMDA3MDIyMDM0MjZaFw0yMzA0MjIyMDM0MjZaMCcxJTAjBgNVBAMMHGlkcGNlcnRjYXJvbGluYWVhc3RoZWFsdGhjb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCkw4qkknNnHDXDQ6VJ7HwW7NPAIFKaVfAhp/0eh12Ze8NxVz0SeNhOs2AM1bRyPMaV3F+qvWqIUuwj3DV/pRRIteIpOp890kajRZZSfQ5cKKDWz6VkVp1g8y8Gbf/WtE9zL4lBhbnKH2OfZU4WBOonkDDLR4TJHc8wrOKAXn7EveNmk0tSIWqxhJehavTHuKjW+9Ij7tHPkMk1PZbgj5YH+Rwx4DZECRUNPff2pZNEXqNDn6a/ZbqyemjLyEcGu37TiCALdxxzlSXNSLRxmmgWNIr7XE4Xqj1L4vVcd0449GiBaxaeA+I9TzieV026xeOnpE8cCDumsvL+sqxgdNZpAgMBAAGjUzBRMB0GA1UdDgQWBBQbrLWWngoD2d9D8V6462CyP99UbTAfBgNVHSMEGDAWgBQbrLWWngoD2d9D8V6462CyP99UbTAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBKgmJb7+x5KHHlReWw7PPYJdSHkRVO7AQfEJKw438CpZ274fGCYwrncR1IbLfXYcM5OcY91jjhLL6oFRJ03NruWYhU0Ey+/VOo2ncFbUs/SdLKvRbiTfAmIqODjeHs7hYed47OrhUt4DQnzE69IlDNURPx2X5y9RUM9j6meojU+5vbahpjsWhnKzKCFQRtPpJv4HlQG4lB8sKLZIcMPUZ0Lq3KAOdzY61dP7AVzv6Y0EHvlkttjFtLmHMRCSgrH6s/MW9yzzIInYya34AIMcMtnkJYa8LTaJmFtQApRw0wo89AXOtMwGpM4yrseBr3zihLxamajGy41TehBmFKJ+oW</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://idp.carolinaeasthealth.com"/>
+  </md:IDPSSODescriptor>
+</md:EntityDescriptor>
